@@ -6,12 +6,6 @@ public final class PluginTest extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getLo
-
-    }
-
-    @Override
-    public void onDisable() {
-        // Plugin shutdown logic
+        getLogger().info("pluginTest is Loaded! - Ver.0.0001");
     }
 }
