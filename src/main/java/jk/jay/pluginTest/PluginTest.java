@@ -7,5 +7,8 @@ public final class PluginTest extends JavaPlugin {
     @Override
     public void onEnable() {
         getLogger().info("pluginTest is Loaded! - Ver.0.0003");
+        getLogger().info(":D");
+        getLogger().warning("경고");
+        getLogger().severe("에러");
     }
 }
