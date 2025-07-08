@@ -1,0 +1,4 @@
+name: PluginTest
+version: '1.0-SNAPSHOT'
+main: jk.jay.pluginTest.PluginTest
+api-version: '1.20'
