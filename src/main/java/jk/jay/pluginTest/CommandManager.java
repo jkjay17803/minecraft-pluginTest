@@ -8,6 +8,7 @@ public class CommandManager {
     public CommandManager(JavaPlugin plugin) {
         this.plugin = plugin;
     }
+
     public void resisterCommands() {
         plugin.getCommand("jk").setExecutor(new BasicCommand());
     }
